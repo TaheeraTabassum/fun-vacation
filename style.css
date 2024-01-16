@@ -1,39 +1,46 @@
-.nav-bar{
+.nav-bar {
     width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .nav-bar h3 {
-        display: flex;
-        gap: 10px;
-        color: var(--Dark-01, #131318);
-        font-size: 2rem;
-        font-weight: 800;
+    display: flex;
+    gap: 10px;
+    color: var(--Dark-01, #131318);
+    font-size: 2rem;
+    font-weight: 800;
 }
-.hamburger{
+
+.hamburger {
     display: none;
 }
-.nav-bar ul{
+
+.nav-bar ul {
     display: flex;
-   gap: 20px;
+    gap: 20px;
 
 }
-.nav-home{
+
+.nav-home {
     color: #FF5400;
-text-align: center;
-font-size: 18px;
-font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav a {
     text-decoration: none;
     color: #474747;
 }
+
 .banner {
     max-width: 1200px;
     height: 550px;
@@ -348,16 +355,93 @@ hr {
     margin-top: 120px;
 }
 
+.deal-discount {
+    width: 1200px;
+    margin: 0 auto;
+    gap: 24px;
+    margin-top: 80px;
+    display: grid;
+}
+
+.deal-title {
+    text-align: center;
+}
+
+.icon-title {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-title p {
+    display: flex;
+    gap: 10px;
+}
+
+.price {
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.discount-info-1 {
+    background-image:
+        url(./B9A2-Hero-Travel-main/Images/Group\ 39.png);
+    width: 1170px;
+    height: 500px;
+    margin-top: 24px;
+}
+
+.discount-content {
+    margin-left: 600px;
+    width: 530px;
+    height: 280px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 0 30px;
+    position: relative;
+    right: 70px;
+    top: 70px;
+}
+
+.discount-info-dif {
+    background-image:
+        url(./B9A2-Hero-Travel-main/Images/Group\ 40.png);
+    width: 1170px;
+    height: 500px;
+}
+
+.discount-content-dif {
+    margin-left: 70px;
+    width: 530px;
+    height: 280px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 0 30px;
+    position: relative;
+    top: 70px;
+}
+
+.deal-btn {
+    margin-left: 500px;
+}
+
 @media screen and (max-width:600px) {
-    .nav-bar{
+    .nav-bar {
         width: 396px;
     }
-    .nav-anchor{
+
+    .nav-anchor {
         display: none;
     }
-    .hamburger{
+
+    .hamburger {
         display: flex;
     }
+
     .banner {
         max-width: 396px;
         height: 550px;
@@ -467,5 +551,44 @@ hr {
 
     .new-year-offer {
         width: 396px;
+    }
+    .deal-discount {
+        width: 396px;
+    }
+    .discount-info-1 {
+        width: 396px;
+        height: 500px;
+    }
+    
+    .discount-content {
+        margin-left: 70px;
+        width: 330px;
+        height: 330px;
+        padding: 0 30px;
+        position: relative;
+        top: 165px;
+    }
+    
+    .discount-info-dif {
+        width: 396px;
+        height: 500px;
+    }
+    
+    .discount-content-dif {
+        margin-left: 0;
+        width: 330px;
+        height: 330px;
+        padding: 0 30px;
+        position: relative;
+        top: 165px;
+    }
+    .deal-discount p{
+        width: 220px;
+    }
+    .deal-btn {
+        margin-left: 80px;
+    }
+    .deal-title p{
+        margin-left: 80px;
     }
 }
