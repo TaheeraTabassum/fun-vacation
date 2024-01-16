@@ -428,6 +428,15 @@ hr {
 .deal-btn {
     margin-left: 500px;
 }
+.place-to-go{
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 50px;
+}
 
 @media screen and (max-width:600px) {
     .nav-bar {
@@ -552,14 +561,16 @@ hr {
     .new-year-offer {
         width: 396px;
     }
+
     .deal-discount {
         width: 396px;
     }
+
     .discount-info-1 {
         width: 396px;
         height: 500px;
     }
-    
+
     .discount-content {
         margin-left: 70px;
         width: 330px;
@@ -568,12 +579,12 @@ hr {
         position: relative;
         top: 165px;
     }
-    
+
     .discount-info-dif {
         width: 396px;
         height: 500px;
     }
-    
+
     .discount-content-dif {
         margin-left: 0;
         width: 330px;
@@ -582,13 +593,20 @@ hr {
         position: relative;
         top: 165px;
     }
-    .deal-discount p{
+
+    .deal-discount p {
         width: 220px;
     }
+
     .deal-btn {
         margin-left: 80px;
     }
-    .deal-title p{
+
+    .deal-title p {
         margin-left: 80px;
+    }
+    .place-to-go{
+        width: 395px;
+        margin-left: 0px;
     }
 }
